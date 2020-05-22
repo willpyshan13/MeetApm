@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Animation.Dialog"
+    android:background="@android:color/transparent"
+    tools:context="com.android.okhttpsample.permission.PermissionActivity">
+
+
+    <!--android:theme="@style/ActivityTransparent"-->
+    <!--android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"-->
+    
+</RelativeLayout>

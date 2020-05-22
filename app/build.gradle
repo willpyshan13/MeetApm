@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-aspectjx'
+
+//
+aspectjx {
+//    includeJarFilter 'OKHttpSample/app','apm-agent'
+    //'OKHttpSample/xlogging-okhttp'
+    //织入遍历符合条件的库
+//    includeJarFilter 'xlog-temp'
+//    'xlog-temp'
+    excludeJarFilter 'com.squareup.okhttp3'
+}
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.android.okhttpsample"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    //V2.0 SDK
+//        compile project(':xlogging')
+    //V1.0
+    
+    compile project(':apm')
+//    compile 'org.aspectj:aspectjrt:1.8.13'
+
+//    compile 'com.meiyou.apm:xlog:0.0.1-SNAPSHOT'
+//    compile 'com.meiyou.apm:xlog-temp:0.0.1-SNAPSHOT'
+
+//    compile 'com.meiyou.apm:apm-agent:0.0.2-SNAPSHOT'
+
+
+
+}

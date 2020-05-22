@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context="com.android.okhttpsample.MainActivity"
+                                             tools:layout_editor_absoluteX="0dp"
+                                             tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/SyncGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="SyncGet"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="AsyncGet"
+        app:layout_constraintStart_toStartOf="@+id/SyncGet"
+        app:layout_constraintTop_toBottomOf="@+id/SyncGet"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="PostRequest"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="284dp"
+        android:layout_height="85dp"
+        android:text="TextView"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="127dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:text="测试上传APM"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3"/>
+
+    <Button
+        android:id="@+id/btn_webview"
+        android:layout_width="127dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:text="进入WebView"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4"/>
+
+</android.support.constraint.ConstraintLayout>
