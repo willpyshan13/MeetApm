@@ -10,8 +10,6 @@ import java.lang.reflect.Method;
  * Apm 代理类： 需要在主工程实现的类，
  * ps: 类不能混淆
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/4/8
  */
 
 public class ApmProxy {

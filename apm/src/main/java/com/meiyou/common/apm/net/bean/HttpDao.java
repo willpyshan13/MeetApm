@@ -9,8 +9,6 @@ import java.util.List;
 
 /**
  * OKHTP 请求数据库Dao
- * @author zhengxiaobin@xiaoyouzi.com
- * @since  18/1/24 下午3:09
  */
 @Dao
 public interface HttpDao {

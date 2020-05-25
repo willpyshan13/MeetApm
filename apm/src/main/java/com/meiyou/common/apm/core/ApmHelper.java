@@ -12,8 +12,6 @@ import java.util.Queue;
  * 对内 管理类
  * 收集数据
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/1/23
  */
 
 public class ApmHelper {

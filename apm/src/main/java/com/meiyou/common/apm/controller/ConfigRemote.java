@@ -6,7 +6,6 @@ import com.meiyou.common.apm.core.Proguard;
 /**
  * 下发的配置信息，
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/5/12
  */
 @Proguard

@@ -8,9 +8,7 @@ import com.meiyou.common.apm.util.LogUtils;
 
 /**
  * Apm对外提供类
- * http://git.meiyou.im/iOS/iOS/blob/master/work/APM.md
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/5/11
  */
 @Proguard

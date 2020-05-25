@@ -3,7 +3,6 @@ package com.android.okhttpsample.mock;
 import java.util.ArrayList;
 
 /**
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/4/4
  */
 

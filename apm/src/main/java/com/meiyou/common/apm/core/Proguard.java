@@ -6,7 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/2/5
  */
 @Retention(RetentionPolicy.CLASS)

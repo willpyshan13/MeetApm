@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * Ga 数据库文件名
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 17/2/3 上午11:59
  */
 public class ApmDbFactory {
     private static ApmDbFactory daoFactory;

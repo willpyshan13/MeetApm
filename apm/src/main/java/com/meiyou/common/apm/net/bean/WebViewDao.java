@@ -9,7 +9,6 @@ import java.util.List;
 
 /**
  * WebView Dao 统计
- * @author zhengxiaobin@xiaoyouzi.com
  * @since  18/1/24 下午3:08
  */
 @Dao

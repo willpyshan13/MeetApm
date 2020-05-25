@@ -7,13 +7,13 @@ buildscript {
 //        maven{
 //            url deployUrl
 //        }
-        maven{
-            url deployReleaseUrl
-        }
+//        maven{
+//            url deployReleaseUrl
+//        }
     }
     dependencies {
 //        classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath 'com.android.tools.build:gradle:3.1.1'
+        classpath 'com.android.tools.build:gradle:3.5.0'
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.4'
         
 
@@ -26,12 +26,12 @@ allprojects {
     repositories {
         jcenter()
         google()
-        maven{
-            url deployUrl
-        }
-        maven{
-            url deployReleaseUrl
-        }
+//        maven{
+//            url deployUrl
+//        }
+//        maven{
+//            url deployReleaseUrl
+//        }
     }
 }
 

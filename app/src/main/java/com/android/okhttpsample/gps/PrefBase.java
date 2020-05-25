@@ -10,7 +10,6 @@ import android.support.annotation.NonNull;
  * 1. 继承基类
  * 2. 对外提供单例方法，并在构造函数里，setPrefName； 参考PrefTest 实现；
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 16/11/15 下午5:03
  */
 

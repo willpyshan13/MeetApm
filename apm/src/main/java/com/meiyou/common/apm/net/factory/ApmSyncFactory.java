@@ -3,7 +3,6 @@ package com.meiyou.common.apm.net.factory;
 /**
  * APM同步 工厂类
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/3/13 下午4:40
  */
 public class ApmSyncFactory {

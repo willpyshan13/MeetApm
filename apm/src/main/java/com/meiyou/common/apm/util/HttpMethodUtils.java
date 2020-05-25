@@ -7,8 +7,6 @@ import com.meiyou.common.apm.net.bean.MetricsBean;
 /**
  * 获取 HTTP Method
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/2/6
  */
 
 public class HttpMethodUtils {

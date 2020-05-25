@@ -20,9 +20,7 @@ import okio.BufferedSink;
 
 /**
  * 对 post 的数据进行一个 AES 加密
- * http://qa.meiyou.com/index.php?m=task&f=view&task=611
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/11/29
  */
 

@@ -26,8 +26,6 @@ import java.util.Set;
  * 先要在onRequestPermissionsResult 里面 发下通知notifyPermissionsChange
  * A class to help you manage your permissions simply.
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 16/10/24 下午6:07
  */
 public class PermissionsManager {
 

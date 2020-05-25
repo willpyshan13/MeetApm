@@ -5,7 +5,6 @@ import android.content.Context;
 import java.util.ArrayList;
 
 /**
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/3/13
  */
 

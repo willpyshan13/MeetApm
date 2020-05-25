@@ -16,8 +16,6 @@ import java.util.List;
 /**
  * WIFI 统计
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 17/12/29 下午4:08
  */
 public class WifiStatController {
     private static final String TAG = "WifiStatController";

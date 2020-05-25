@@ -19,8 +19,6 @@ import com.android.okhttpsample.permission.PermissionsManager;
 /**
  * 浏览器测试
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/3/12 上午11:24
  */
 public class WebViewActivity extends AppCompatActivity {
     private static String umengMac;

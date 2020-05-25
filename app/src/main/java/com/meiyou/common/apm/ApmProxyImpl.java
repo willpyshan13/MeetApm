@@ -3,7 +3,6 @@ package com.meiyou.common.apm;
 /**
  * Apm 代理实现类，不要删掉
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/4/8
  */
 

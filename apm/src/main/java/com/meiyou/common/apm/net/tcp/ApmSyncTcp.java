@@ -19,8 +19,6 @@ import java.util.HashMap;
 /**
  * HTTP上传通道
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/3/13
  */
 
 public class ApmSyncTcp implements IApmSync {

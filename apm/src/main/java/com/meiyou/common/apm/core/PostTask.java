@@ -9,12 +9,6 @@ import com.meiyou.common.apm.net.bean.MetricsBean;
 import com.meiyou.common.apm.util.AsyncTaskSerial;
 import com.meiyou.common.apm.util.LogUtils;
 
-/**
- * 入库Task
- *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/4/10 下午6:02
- */
 public class PostTask extends AsyncTaskSerial<String, Void, Void> {
     private final MetricsBean bean;
 

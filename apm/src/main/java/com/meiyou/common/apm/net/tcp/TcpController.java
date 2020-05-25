@@ -9,7 +9,6 @@
 ///**
 // * APM， TCP 上传通道。
 // *请勿删除，反射
-// * @author zhengxiaobin@xiaoyouzi.com
 // * @since 18/3/13
 // */
 //

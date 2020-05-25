@@ -28,7 +28,6 @@ import okhttp3.ResponseBody;
 /**
  * "/init" 获取 Config 配置数据
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/1/22
  */
 

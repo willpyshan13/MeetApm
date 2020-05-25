@@ -5,8 +5,6 @@ package com.meiyou.common.apm.util;
  * session Id 生成器
  * 应用前台=》后台, 超过30s，重新生成ID；
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 17/5/11
  */
 
 public class SessionCreator {

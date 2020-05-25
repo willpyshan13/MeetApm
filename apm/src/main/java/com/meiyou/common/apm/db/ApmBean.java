@@ -11,8 +11,6 @@
 ///**
 // * Ga  持久化保存 对象
 // *
-// * @author zhengxiaobin@xiaoyouzi.com
-// * @since 17/2/3
 // */
 //
 //public class ApmBean implements Serializable {

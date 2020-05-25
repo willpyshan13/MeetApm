@@ -22,8 +22,6 @@ import java.util.TimerTask;
  * APM 数据保存到本地，然后异步跟服务器同步
  * 现在是 没有保存到本地，直接同步到服务器；
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 17/2/3
  */
 
 public class ApmSyncManager {

@@ -10,8 +10,6 @@ import java.util.UUID;
 /**
  * 获取UUID
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/1/23
  */
 
 public class UUIDUtils {

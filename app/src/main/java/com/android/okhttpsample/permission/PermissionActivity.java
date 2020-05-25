@@ -11,7 +11,6 @@ import com.android.okhttpsample.R;
 /**
  * 提供 透明页面，申请权限，方便在无Activity的地方调用
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/12/5 下午3:22
  */
 public class PermissionActivity extends FragmentActivity {

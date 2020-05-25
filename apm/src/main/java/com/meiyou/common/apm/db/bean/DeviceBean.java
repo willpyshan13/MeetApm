@@ -6,8 +6,6 @@ import java.util.ArrayList;
 
 /**
 * 初始化设备
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/1/23
  */
 @Proguard
 public class DeviceBean {

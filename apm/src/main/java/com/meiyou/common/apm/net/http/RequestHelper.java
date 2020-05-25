@@ -17,7 +17,6 @@ import okhttp3.RequestBody;
 /**
  * 请求类
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/1/22
  */
 

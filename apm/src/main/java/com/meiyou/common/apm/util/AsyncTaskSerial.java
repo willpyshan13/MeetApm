@@ -14,8 +14,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * GA线程任务 使用独立线程池。一条线程执行,先进先出
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 17/5/3
  */
 
 public abstract class AsyncTaskSerial<Params, Progress, Result> extends AsyncTask<Params, Progress, Result> {

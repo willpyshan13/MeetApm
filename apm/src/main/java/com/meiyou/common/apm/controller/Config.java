@@ -12,7 +12,6 @@ import java.util.HashMap;
 /**
  * 配置类： 静态变量实现
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/5/12
  */
 

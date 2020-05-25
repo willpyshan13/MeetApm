@@ -17,9 +17,6 @@ import java.util.Map;
 /**
  * 通过图片的经纬度来完善用户的GPS信息：
  * <p>
- * http://qa.meiyou.com/index.php?m=task&f=view&task=615
- *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 17/12/5
  */
 

@@ -21,8 +21,6 @@ import javax.xml.transform.stream.StreamSource;
 /**
  * LogUtils
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/1/24 上午10:16
  */
 public class LogUtils {
 

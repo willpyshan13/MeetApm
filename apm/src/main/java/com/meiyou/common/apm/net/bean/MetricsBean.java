@@ -9,9 +9,7 @@ import java.util.ArrayList;
 
 /**
  * 本地db 存储
- * http://gitlab.meiyou.com/apm/apm-docs/blob/master/APM.md#type-networkmetrics
  *
- * @author zhengxiaobin@xiaoyouzi.com
  * @since 18/1/22
  */
 @Proguard

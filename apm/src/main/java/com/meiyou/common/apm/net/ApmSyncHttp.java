@@ -23,8 +23,6 @@ import okhttp3.Response;
 /**
  * HTTP上传通道
  *
- * @author zhengxiaobin@xiaoyouzi.com
- * @since 18/3/13
  */
 
 public class ApmSyncHttp implements IApmSync {
