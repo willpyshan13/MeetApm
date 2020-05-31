@@ -62,6 +62,11 @@ aspectjx {
 ```groovy
 compile "com.meiyou.apm:apm-agent:0.0.1-SNAPSHOT" 
 ```
+
+4. apm.0.2.0版本开始，需要用到 主工程的 myClent和TCP 功能。因此，需要在主工程新增接口是实现类：
+```java
+ //com.meiyou.common.apm.ApmProxyImpl
+ com.meiyou.common.apm.ApmProxyImpl
 ```
 #### 三、插入初始化探针代码
 1. 在“Application”中的onCreate()方法（如未找到该方法请新增onCreate()）中初始化Android SDK
